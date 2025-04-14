@@ -26,7 +26,7 @@ from typing import List, Tuple
 config = configparser.ConfigParser()
 print(os.getcwd())
 print(os.listdir())
-config.read('config.ini')
+config.read('/mount/src/kpidahporj/config.ini')
 print(config.sections())
 print("Hi!")
 
