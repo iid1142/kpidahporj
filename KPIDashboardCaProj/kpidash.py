@@ -24,6 +24,7 @@ from typing import List, Tuple
 
 # Load configuration from config.ini
 config = configparser.ConfigParser()
+print(os.getcwd())
 config.read('config.ini')
 print(config.sections())
 print("Hi!")
