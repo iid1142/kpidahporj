@@ -27,7 +27,7 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 
 # Database connection parameters from config
-DB_HOST = os.environ.get('DB_HOST', config['host'])
+DB_HOST = os.environ.get('DB_HOST', config['database']['host'])
 DB_PORT = os.environ.get('DB_PORT', config['database']['port'])
 DB_NAME = os.environ.get('DB_NAME', config['database']['dbname'])
 DB_USER = os.environ.get('DB_USER', config['database']['user'])
