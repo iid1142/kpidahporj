@@ -26,6 +26,7 @@ from typing import List, Tuple
 config = configparser.ConfigParser()
 config.read('config.ini')
 print(config.sections())
+print("Hi!")
 
 # Database connection parameters from config
 DB_HOST = os.environ.get('DB_HOST', config['database']['host'])
