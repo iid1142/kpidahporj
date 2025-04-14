@@ -14,7 +14,7 @@ import pandas as pd
 import psycopg2
 import plotly.express as px
 from datetime import datetime, timedelta
-import statsmodels.api as sm
+import statsmodels as sm
 import hashlib  # For password hashing
 import os  # For environment variables
 import configparser  # For config.ini
