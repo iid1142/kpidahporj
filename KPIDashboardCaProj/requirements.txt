@@ -2,8 +2,8 @@ streamlit
 pandas
 psycopg2-binary
 python-dateutil
-plotly.express
-statsmodels.api
+plotly
+statsmodels
 hashlib
 os 
 configparser
